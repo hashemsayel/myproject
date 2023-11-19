@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+.header{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   padding: 12px;
+   border-bottom:1px solid rgb(201, 196, 196);
+   position: sticky;
+   top: 0;
+   width: 100%;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list li{
+    padding: 10px;
+}
+.list a{
+    font-family: cursive;
+    color: rgb(14, 13, 13);
+     text-transform: uppercase;
+
+}
+.list a:hover{
+    transition: 0.2s;
+    color:rgb(133, 22, 244);
+}
+
+.list i{
+    font-size: 16px;
+    margin-top: 6px;
+    margin-left: 14px; 
+    color: rgb(117, 0, 234);
+    cursor: pointer;
+}
+.header h1 a{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.322);
+ 
+}
+.sea{
+    background-image: url('image/sea.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 50px;
+}
+.sea h2{
+    font-size: 80px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.sea p{
+    color: white;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+.button{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.button button{
+  padding: 13px;
+  outline: none;
+ border: none;
+ font-family: cursive;
+ letter-spacing: 2px;
+}
+.button .button2{
+   border: 2px solid white;
+   background-color: transparent;
+   color: aliceblue;
+}
+.button .button1{
+    color: whitesmoke;
+    background-color: rgb(132, 0, 255);
+}
+
+.button .button1:hover{
+    transition: 0.5s;
+    background-color: rgb(132, 0, 255,0.7);
+    cursor: pointer;
+
+}
+
+.button .button2:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color:white;
+    color: black;
+}
+.labtop{
+    display: flex;
+    align-items: center;
+    padding: 13px;
+   font-family: cursive;
+   letter-spacing: 2px;
+   gap: 3px;
+   border-bottom:1px solid rgb(165, 164, 164);
+
+  }
+  .labtop .image{
+    width:50%;
+    height: 50%;
+  }
+
+
+
+.labtop h3{
+    margin-bottom:20px;
+    font-size: 30px;
+}
+
+.labtop p{
+    opacity: 0.8;
+    width: 80%;
+}
+
+
+  
+
+
+.labtop .button3{
+    color: whitesmoke;
+    background-color: rgb(132, 0, 255);
+    padding: 13px;
+    padding-left:40px;
+    padding-right:40px;
+    outline: none;
+   border: none;
+   font-family: cursive;
+   letter-spacing: 2px;
+   margin-top: 40px;
+  }
+
+.end{
+    display: flex;
+    align-items: center;
+    padding: 13px;
+   font-family: cursive;
+   letter-spacing: 2px;
+   border-bottom:1px solid rgb(165, 164, 164);
+   gap: 3px;
+   margin-left: 10px;
+   
+
+
+
+}
+.end img{
+    width:50%;
+    height: 50%;
+    
+}
+
+.end h3{
+    margin-bottom:20px;
+    font-size: 30px;
+
+}
+
+.end p{
+    opacity: 0.8;
+    width: 80%;
+}
+.end .button3{
+    color: whitesmoke;
+    background-color: rgb(132, 0, 255);
+    padding: 13px;
+    padding-left:40px;
+    padding-right:40px;
+    outline: none;
+   border: none;
+   font-family: cursive;
+   letter-spacing: 2px;
+   margin-top: 40px;
+
+}
+
+.labtop .button3:hover{
+    transition: 0.5s;
+    background-color: rgb(132, 0, 255,0.7);
+    cursor: pointer;
+
+
+}
+
+.end .button3:hover{
+    transition: 0.5s;
+    background-color: rgb(132, 0, 255,0.7);
+    cursor: pointer;
+
+
+}
+footer{
+    display: flex;
+    background-color: rgb(38, 37, 37);
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+footer .icon{
+    font-size: 30px;
+    color: aliceblue;
+    cursor: pointer;
+    display: flex;
+    gap: 15px;
+}
+footer h3{
+    color: white;
+    opacity: 0.7;
+    font-family:cursive;
+}
+footer .icon i:hover{
+    transition: 0.2s;
+    color:rgb(133, 22, 244);
+}
